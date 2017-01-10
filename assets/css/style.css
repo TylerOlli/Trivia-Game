@@ -1,0 +1,46 @@
+#instructions {
+background-color: white; 
+}
+
+#instructions:hover {
+color: white;
+background-color: yellow;
+}
+
+#select-button:hover {
+color: white;
+background-color: green;
+}
+
+#pause:hover {
+color: white;
+background-color: red;
+}
+
+
+#resume:hover {
+color: white;
+background-color: blue;
+}
+
+.jumbotron {
+margin-top: 50px;
+background-color: transparent; color: white;
+}
+
+body {
+ position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background: url("../images/bg-pattern.png"), #7b4397;
+
+}
+
+#answer0:hover, #answer1:hover, #answer2:hover, #answer3:hover {
+  color: red;
+}
+
+#answer0:active, #answer1:active, #answer2:active, #answer3:active {
+  color: blue;
+}
