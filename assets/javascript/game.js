@@ -218,7 +218,8 @@ document.addEventListener("DOMContentLoaded", function(){
     callTrivia(selectBox.item(index1).id, difficultyBox.item(index2).id);
 
     $("#jumbotron").slideUp();
-    $("#row1").show('slide', {direction: 'right'}, 1000);
+    $("#row1").show('slide', {direction: 'left'}, 1000);
+
   }
 
   pauseButton.onclick = function(){

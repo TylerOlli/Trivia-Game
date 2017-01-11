@@ -1,12 +1,3 @@
-#instructions {
-background-color: white; 
-}
-
-#instructions:hover {
-color: white;
-background-color: yellow;
-}
-
 #select-button:hover {
 color: white;
 background-color: green;
