@@ -19,6 +19,28 @@ $( "#instructions" ).click(function() {
   alert( "Please choose your category and difficulty, then press GO to start answering the trivia questions. Answer quick before the timer runs out!");
 });
 
+//some mouse over animations
+$("#select-button").mouseover(function() {
+$(this).addClass('ShakeAnimation btn-danger');
+});
+$("#select-button").mouseout(function() {
+$(this).removeClass('ShakeAnimation btn-danger');
+});
+            
+$("#pause").mouseover(function() {
+$(this).addClass('ShakeAnimation');
+});
+$("#pause").mouseout(function() {
+$(this).removeClass('ShakeAnimation');
+});
+
+$("#resume").mouseover(function() {
+$(this).addClass('ShakeAnimation');
+});
+$("#resume").mouseout(function() {
+$(this).removeClass('ShakeAnimation');
+});
+
 //Fisher-Yates shuffle
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
